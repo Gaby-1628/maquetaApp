@@ -37,7 +37,6 @@ a {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, rgba(56, 239, 126, 0.89), rgba(17, 153, 142, 0.89));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .form-box2 {
@@ -159,8 +158,71 @@ a {
 }
 
 
+/* --------------------------------------------------- */
+/* ---------------- Diseño Responsive ---------------- */
+/* --------------------------------------------------- */
 
+@media screen and (max-width: 800px) {
+    .form-box,
+    .form-box2 {
+        width: 80%;
+    }
 
+    .title {
+        transform: translateY(20%);
+    }
+
+    .title h1 {
+        transform: translateX(-110%);
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .title p {
+        display: none;
+    }
+
+    .title .btn {
+        transform: translateY(700%);
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .form-value h2 {
+        font-size: 46px;
+        padding: 0 0 200px 0;
+    }
+
+    .input-box {
+        width: 200px;
+    }
+    
+    .box input {
+        width: 70%;
+    }
+    
+    .box label {
+        top: 80%;
+    }
+
+    .form-value p {
+        font-size: 14px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+    
+    .text a {
+        width: 100px;
+        font-size: 14px;
+        margin: auto;
+        padding: 0 0 10px 0;
+    }
+}
 
 
 
