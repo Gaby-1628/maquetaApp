@@ -7,25 +7,27 @@
     <title>M A V</title>
 </head>
 <body>
-    <section class="container">
+    <section id="sing-in" class="container">
         <div class="form-box">
             <div class="form-value">
                 <form action="">
                     <h2>Sing In</h2>
                     <div class="input-box">
-                        <input type="email" required>
-                        <label for="">Username</label>
+                        <div class="box">
+                            <input type="email" required>
+                            <label for="">Username</label>
+                        </div>
                     </div>
                     <div class="input-box">
-                        <input type="password" required>
-                        <label for="">Password</label>
+                        <div class="box">
+                            <input type="password" required>
+                            <label for="">Password</label>
+                        </div>
                     </div>
-                    <div class="btn-in">
-                        <button>
-                            LOG IN
-                        </button>
-                        <p>Ingresa con usuario y con</p>
+                    <div class="btn">
+                        <input type="submit" value="LOG IN">
                     </div>
+                    <p>Ingresa con usuario y contraseña</p>
                     <div class="text">
                         <p>Olvidaste tu contraseña?</p><a href="">Has click aquí</a>
                     </div>
@@ -34,14 +36,44 @@
         </div>
         <div class="title">
             <h1>Hola, es bueno tenerte</h1>
-            <div class="btn-up">
-                <button>
-                    LOG UP
-                </button>
+            <p>Si todavia no tienes una cuenta, crea una ingresando aqui</p>
+            <div class="btn">
+                <input type="submit"  onclick="showHide('singUp')" value="LOG UP">
             </div>
         </div>
     </section>
-
+    <section id="sing-up" class="container">
+        <div class="title">
+            <h1>Bienvenido, crear tu cuenta</h1>
+            <p>Si ya tienes una cuenta ingresa aqui</p>
+            <div class="btn">
+                <input type="submit"  onclick="showHide('singIn')" value="LOG IN">
+            </div>
+        </div>
+        <div class="form-box2">
+            <div class="form-value">
+                <form action="">
+                    <h2>Sing Up</h2>
+                    <div class="input-box">
+                        <div class="box">
+                            <input type="email" required>
+                            <label for="">Username</label>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="box">
+                            <input type="password" required>
+                            <label for="">Password</label>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="LOG UP">
+                    </div>
+                    <p>Ingresa con usuario y contraseña</p>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <script src="js/main.js"></script>
 </body>

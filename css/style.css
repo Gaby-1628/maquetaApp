@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .container {
@@ -29,23 +30,139 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(4, 41, 6, 0.952);
+    border-radius: 0 50px 50px 0;
+    background: rgba(17, 153, 142, 0.87);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(56, 239, 126, 0.87), rgba(17, 153, 142, 0.89));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(56, 239, 126, 0.89), rgba(17, 153, 142, 0.89));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.title {
+.form-box2 {
     width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: rgba(179, 232, 245, 0.404);
+    border-radius: 50px 0 0 50px;
+    background: rgba(17, 153, 142, 0.87);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(56, 239, 126, 0.87), rgba(17, 153, 142, 0.89));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(56, 239, 126, 0.89), rgba(17, 153, 142, 0.89));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.title {
+    width: 50%;
+    height: 100vh;
+    text-align: center;
 }
 
 .title h1 {
     font-size: 85px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
 }
+
+.title p {
+    width: 60%;
+    font-size: 18px;
+    font-weight: 700;
+    margin: auto;
+    border-top: 6px solid #fff;
+    padding: 12px 0;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-value h2 {
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.input-box {
+    width: 300px;
+    position: relative;
+    border-bottom: 2px solid #fff;
+    margin: 30px;
+}
+
+.box input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #fff;
+    transform: translateY(-200%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.btn input {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 16px;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    background: #56ab2f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #a8e063, #56ab2f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-value p {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.text p {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.text a {
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid #fff;
+    padding: 0 0 16px 0;
+}
+
+
+
+
+
+
 
 
 
