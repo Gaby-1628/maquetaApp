@@ -121,7 +121,8 @@ a {
     padding: 20px 0;
 }
 
-.btn input {
+.btn input,
+.btn button {
     width: 200px;
     height: 40px;
     text-align: center;
@@ -189,12 +190,21 @@ a {
     }
 
     .title .btn {
-        transform: translateY(500%);
-        width: 100px;
+        transform: translateY(600%);
+        width: 70px;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 20px 0;
+    }
+
+    .btn button {
+        font-size: 10px;
+        transform: translateX(-200%);
+    }
+
+    #sing-up button {
+        transform: translateX(350%);
     }
 
     .form-value h2 {
@@ -214,8 +224,14 @@ a {
         top: 80%;
     }
 
-    .form-value p {
+    #sing-in .form-value p {
         font-size: 14px;
+        margin-left: 10px;
+    }
+
+    #sing-up .form-value p {
+        font-size: 14px;
+        margin: auto;
     }
 
     .text p {

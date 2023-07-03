@@ -1,9 +1,7 @@
 const singIn = document.querySelector('#sing-in')
 const singUp = document.querySelector('#sing-up')
 
-
 singUp.style.display = 'none'
-
 
 function showHide(login) {
     if (login == 'singUp') {
@@ -15,5 +13,11 @@ function showHide(login) {
         singUp.style.display = 'none'
     }
 }
+
+
+
+
+
+
 
 
